@@ -1,0 +1,26 @@
+CREATE /home/buildbot/buildbot/padding_for_CPACK_RPM_BUILD_SOURCE_DIRS_PREFIX/mariadb-10.5.4/libmysqld/libmariadbd.a
+ADDLIB /home/buildbot/buildbot/padding_for_CPACK_RPM_BUILD_SOURCE_DIRS_PREFIX/mariadb-10.5.4/dbug/libdbug.a
+ADDLIB /home/buildbot/buildbot/padding_for_CPACK_RPM_BUILD_SOURCE_DIRS_PREFIX/mariadb-10.5.4/strings/libstrings.a
+ADDLIB /home/buildbot/buildbot/padding_for_CPACK_RPM_BUILD_SOURCE_DIRS_PREFIX/mariadb-10.5.4/vio/libvio.a
+ADDLIB /home/buildbot/buildbot/padding_for_CPACK_RPM_BUILD_SOURCE_DIRS_PREFIX/mariadb-10.5.4/storage/csv/libcsv_embedded.a
+ADDLIB /home/buildbot/buildbot/padding_for_CPACK_RPM_BUILD_SOURCE_DIRS_PREFIX/mariadb-10.5.4/storage/heap/libheap_embedded.a
+ADDLIB /home/buildbot/buildbot/padding_for_CPACK_RPM_BUILD_SOURCE_DIRS_PREFIX/mariadb-10.5.4/storage/innobase/libinnobase_embedded.a
+ADDLIB /home/buildbot/buildbot/padding_for_CPACK_RPM_BUILD_SOURCE_DIRS_PREFIX/mariadb-10.5.4/storage/maria/libaria_embedded.a
+ADDLIB /home/buildbot/buildbot/padding_for_CPACK_RPM_BUILD_SOURCE_DIRS_PREFIX/mariadb-10.5.4/mysys/libmysys.a
+ADDLIB /home/buildbot/buildbot/padding_for_CPACK_RPM_BUILD_SOURCE_DIRS_PREFIX/mariadb-10.5.4/mysys_ssl/libmysys_ssl.a
+ADDLIB /home/buildbot/buildbot/padding_for_CPACK_RPM_BUILD_SOURCE_DIRS_PREFIX/mariadb-10.5.4/storage/myisam/libmyisam_embedded.a
+ADDLIB /home/buildbot/buildbot/padding_for_CPACK_RPM_BUILD_SOURCE_DIRS_PREFIX/mariadb-10.5.4/storage/myisammrg/libmyisammrg_embedded.a
+ADDLIB /home/buildbot/buildbot/padding_for_CPACK_RPM_BUILD_SOURCE_DIRS_PREFIX/mariadb-10.5.4/storage/perfschema/libperfschema_embedded.a
+ADDLIB /home/buildbot/buildbot/padding_for_CPACK_RPM_BUILD_SOURCE_DIRS_PREFIX/mariadb-10.5.4/storage/sequence/libsequence_embedded.a
+ADDLIB /home/buildbot/buildbot/padding_for_CPACK_RPM_BUILD_SOURCE_DIRS_PREFIX/mariadb-10.5.4/plugin/auth_socket/libauth_socket_embedded.a
+ADDLIB /home/buildbot/buildbot/padding_for_CPACK_RPM_BUILD_SOURCE_DIRS_PREFIX/mariadb-10.5.4/plugin/feedback/libfeedback_embedded.a
+ADDLIB /home/buildbot/buildbot/padding_for_CPACK_RPM_BUILD_SOURCE_DIRS_PREFIX/mariadb-10.5.4/plugin/type_geom/libtype_geom_embedded.a
+ADDLIB /home/buildbot/buildbot/padding_for_CPACK_RPM_BUILD_SOURCE_DIRS_PREFIX/mariadb-10.5.4/plugin/type_inet/libtype_inet_embedded.a
+ADDLIB /home/buildbot/buildbot/padding_for_CPACK_RPM_BUILD_SOURCE_DIRS_PREFIX/mariadb-10.5.4/plugin/user_variables/libuser_variables_embedded.a
+ADDLIB /home/buildbot/buildbot/padding_for_CPACK_RPM_BUILD_SOURCE_DIRS_PREFIX/mariadb-10.5.4/plugin/userstat/libuserstat_embedded.a
+ADDLIB /home/buildbot/buildbot/padding_for_CPACK_RPM_BUILD_SOURCE_DIRS_PREFIX/mariadb-10.5.4/sql/libpartition_embedded.a
+ADDLIB /home/buildbot/buildbot/padding_for_CPACK_RPM_BUILD_SOURCE_DIRS_PREFIX/mariadb-10.5.4/sql/libsql_sequence_embedded.a
+ADDLIB /home/buildbot/buildbot/padding_for_CPACK_RPM_BUILD_SOURCE_DIRS_PREFIX/mariadb-10.5.4/libmysqld/libsql_embedded.a
+
+SAVE
+END

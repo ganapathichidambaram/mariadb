@@ -1,0 +1,23 @@
+# these four variables are present in almost every .pc file
+prefix=/usr
+exec_prefix=${prefix}
+libdir=${prefix}/lib64
+includedir=${prefix}/include/mysql
+# those are rarely present or not at all, but we export them regardless
+bindir=${prefix}/bin
+sbindir=${prefix}/sbin
+scriptdir=${prefix}/bin
+plugindir=${prefix}/lib64/mysql/plugin
+docdir=${prefix}/share/doc
+mandir=${prefix}/share/man
+sharedir=${prefix}/share
+mysqlsharedir=${prefix}/share/mysql
+mysqltestdir=${prefix}/share/mysql-test
+socket=/var/lib/mysql/mysql.sock
+
+Name: MariaDB
+Description: MariaDB: a very fast and robust SQL database server
+URL: http://mariadb.org
+Version: 10.5.4
+Libs: -L${libdir} -lmariadb -lpthread -lz -ldl -lm -lssl -lcrypto
+Cflags: -I${includedir} 

@@ -1,0 +1,10 @@
+[Unit]
+Description=mcs-controllernode
+PartOf=mcs-workernode.service
+After=mcs-workernode.service
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/controllernode fg
+Restart=on-failure
+ExecStop=/usr/bin/mcs-stop-controllernode.sh $MAINPID

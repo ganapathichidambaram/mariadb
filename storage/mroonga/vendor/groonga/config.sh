@@ -1,0 +1,7 @@
+export CUTTER=""
+export RUBY="/usr/bin/ruby"
+export GROONGA="/home/buildbot/buildbot/padding_for_CPACK_RPM_BUILD_SOURCE_DIRS_PREFIX/mariadb-10.5.4/storage/mroonga/vendor/groonga/src/groonga"
+export GROONGA_HTTPD=""
+export GROONGA_SUGGEST_CREATE_DATASET="/home/buildbot/buildbot/padding_for_CPACK_RPM_BUILD_SOURCE_DIRS_PREFIX/mariadb-10.5.4/storage/mroonga/vendor/groonga/src/suggest/groonga-suggest-create-dataset"
+export GROONGA_BENCHMARK="/home/buildbot/buildbot/padding_for_CPACK_RPM_BUILD_SOURCE_DIRS_PREFIX/mariadb-10.5.4/storage/mroonga/vendor/groonga/src/groonga-benchmark"
+export GROONGA_MRUBY=""

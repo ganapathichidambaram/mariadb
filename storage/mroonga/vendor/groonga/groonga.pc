@@ -1,0 +1,20 @@
+prefix=/usr
+exec_prefix=/usr
+bindir=/usr/bin
+sbindir=/usr/sbin
+libdir=/usr/lib
+includedir=/usr/include
+datarootdir=/usr/share
+datadir=/usr/share
+document_root=/usr/share/groonga/html/admin
+pluginsdir=/usr/lib/groonga/plugins
+groonga=${bindir}/groonga
+groonga_httpd=${sbindir}/groonga-httpd
+groonga_suggest_create_dataset=${bindir}/groonga-suggest-create-dataset
+groonga_version=7.0.7
+
+Name: Groonga
+Description: An Embeddable Fulltext Search Engine
+Version: 7.0.7
+Libs: -L${libdir} -lgroonga
+Cflags: -I${includedir}/groonga
